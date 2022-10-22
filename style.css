@@ -1,0 +1,32 @@
+.container {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  margin: 1px;
+  display: flex;
+}
+
+.box:hover {
+  background-color: rgb(1, 98, 98);
+  transition: 0.3s;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
